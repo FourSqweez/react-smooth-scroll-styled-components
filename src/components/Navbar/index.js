@@ -10,13 +10,13 @@ import {
   NavLogo,
   NavMenu,
 } from './NavbarElements'
-function Navbar() {
+function Navbar({ toggle }) {
   return (
     <>
       <Nav>
         <NavbarContainer>
           <NavLogo to="/">dolla</NavLogo>
-          <MobileIcon>
+          <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
           <NavMenu>
