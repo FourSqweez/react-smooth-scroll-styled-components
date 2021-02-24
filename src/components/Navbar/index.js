@@ -3,6 +3,8 @@ import {
   MobileIcon,
   Nav,
   NavbarContainer,
+  NavBtn,
+  NavBtnLink,
   NavItem,
   NavLinks,
   NavLogo,
@@ -31,6 +33,9 @@ function Navbar() {
               <NavLinks to="signup">Sign Up</NavLinks>
             </NavItem>
           </NavMenu>
+          <NavBtn>
+            <NavBtnLink to="signin">Sign In</NavBtnLink>
+          </NavBtn>
         </NavbarContainer>
       </Nav>
     </>
