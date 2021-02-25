@@ -18,7 +18,7 @@ import { Button } from '../ButtonElements'
 const InfoSection = (props) => {
   return (
     <>
-      <InfoContainer lightBg={props.lightBg}>
+      <InfoContainer lightBg={props.lightBg} id={props.id}>
         <InfoWrapper>
           <InfoRow imgStart={props.imgStart}>
             <Column1>
