@@ -34,7 +34,7 @@ const InfoSection = (props) => {
                     smooth={true}
                     duration={500}
                     spy={true}
-                    exact={true}
+                    exact="true"
                     offset={-80}
                     primary={props.primary ? 1 : 0}
                     dark={props.dark ? 1 : 0}
