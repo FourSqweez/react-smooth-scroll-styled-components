@@ -1,8 +1,11 @@
+import SignIn from '../components/Signin'
+
 const SignInPage = () => {
-    return (
-        <div>
-        </div>
-    )
+  return (
+    <>
+      <SignIn />
+    </>
+  )
 }
 
 export default SignInPage
